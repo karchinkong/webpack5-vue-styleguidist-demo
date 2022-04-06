@@ -29,7 +29,7 @@ module.exports = {
     exampleMode: 'expand', //文档中代码示例的标签初始化状态，决定是否展开。
     copyCodeButton: true, //代码顶部的复制按钮
     locallyRegisterComponents: true, //vue-styleguidist全局注册所有组件 多个组件共享相同的名称或如果注册了另一个组件，则组件将更改行为
-    skipComponentsWithoutExample: true, //跳过没有demo的vue组件案例
+    // skipComponentsWithoutExample: true, //跳过没有demo的vue组件案例
     pagePerSection: true,
 
     //启动服务配置
